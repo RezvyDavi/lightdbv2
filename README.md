@@ -17,13 +17,13 @@
 ## 🚀 Instalasi
 
 ```bash
-npm install lightdb --save
+npm install lightdbv2
 ```
 
 ## 🛠 Inisialisasi  
 
 ```bash
-const LightDB = require('lightdb');  
+const LightDB = require('lightdbv2');  
 (async () => {  
   const db = new LightDB('storage.jsonl', { debug: true });  
   await db.init();  
@@ -78,7 +78,7 @@ await db.compact();
 
 ## 🧪 Contoh Lengkap  
 ```bash
-const LightDB = require('lightdb');  
+const LightDB = require('lightdbv2');  
 (async () => {  
   const db = new LightDB('storage.jsonl', { debug: true });  
   await db.init();  
