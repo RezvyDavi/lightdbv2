@@ -1,12 +1,20 @@
 {
-  "name": "lightdb",
+  "name": "lightdbv2",
   "version": "1.0.0",
+  "description": "Lightweight key-value database for Node.js using append-only JSONL format.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
-  "keywords": [],
+  "keywords": ["jsonl", "database", "key-value", "lightweight", "nodejs", "local-db"],
   "author": "Rezvy",
-  "license": "ISC",
-  "description": ""
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rezvydavi/lightdbv2"
+  },
+  "bugs": {
+    "url": "https://github.com/rezvydavi/lightdbv2/issues"
+  },
+  "homepage": "https://github.com/rezvydavi/lightdbv2#readme"
 }
